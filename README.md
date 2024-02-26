@@ -15,7 +15,6 @@ To incorporate optimizing for positional balance among the two teams we are look
 - if the position we are unrolling the player to is the player's original position, we assign the original (full) score of the player to it.
 - if the position we are unrolling the player to is not the player's original position, we assign a reduced score to it, i.e. we penalize the skill score of the player if s/he is deployed to a team in that position. The rationale of that penalization is the player won't be able to perform to her/his full skill score due to the positional mismatch of the position s/he is deployed versus her/his original skillset.
 
-From an implementation perspective, we will use a statically defined hashtable (size: O(P)) 
 
 
 
